@@ -28,10 +28,7 @@ estabelecer uma relação de confiança com eles. Por isso, a qualidade do data 
 2. Localização: Além dos fatores internos, há riscos de interrupção dos negócios por agentes externos, como acidentes e fenômenos naturais. Assim, uma localização estratégica do data center em determinadas áreas é crucial para a garantia de segurança do ambiente.
 3. Redundância: Mesmo com os requisitos já mencionados, a redundância é essencial para a alta disponibilidade de sistemas, redes e dados. Um data center Tier III, por exemplo, oferece total disponibilidade ao garantir a gestão de períodos de manutenção sem impacto na continuidade dos serviços.O que quer dizer que mesmo em caso de falha em um equipamento, outro estará disponível, com as mesmas funcionalidades e informações registradas e não acarretará em perdas de disponibilidade. 
 b) Os formatos proprietários representam a privatização da memória digital. Arquivos salvos em formatos abertos são arquivos que seguem padrões abertos, cujas especificações são publicadas e podem ser conhecidas por todos.
-b1) exemplos: Áudio	= mp3, .FLAC, .ogg
-Vídeos	= mkv, .webM, .mp4(codec x264)
-Webpage	= HTML5
-e-book	= epub
+b1) formatos abertos: cSv,txt, PNg,JSoN. formatos proprietarioss: como se trata de uma rede fechada, suas especificações não estao disponíveis publicambete
 b2) Conforme a LGPD, o setor público não pode mais fazer uso do interesse legítimo como base legal. Existem inúmeras organizações públicas que exercem atividades de cunho delicado como tratamento de dados sensíveis, estando sujeitas a enfrentarem situações indesejáveis, tanto no âmbito administrativo quanto no judicial.
 
 
