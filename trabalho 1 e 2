@@ -28,8 +28,78 @@ estabelecer uma relação de confiança com eles. Por isso, a qualidade do data 
 2. Localização: Além dos fatores internos, há riscos de interrupção dos negócios por agentes externos, como acidentes e fenômenos naturais. Assim, uma localização estratégica do data center em determinadas áreas é crucial para a garantia de segurança do ambiente.
 3. Redundância: Mesmo com os requisitos já mencionados, a redundância é essencial para a alta disponibilidade de sistemas, redes e dados. Um data center Tier III, por exemplo, oferece total disponibilidade ao garantir a gestão de períodos de manutenção sem impacto na continuidade dos serviços.O que quer dizer que mesmo em caso de falha em um equipamento, outro estará disponível, com as mesmas funcionalidades e informações registradas e não acarretará em perdas de disponibilidade. 
 b) Os formatos proprietários representam a privatização da memória digital. Arquivos salvos em formatos abertos são arquivos que seguem padrões abertos, cujas especificações são publicadas e podem ser conhecidas por todos.
-b1) formatos abertos: cSv,txt, PNg,JSoN. formatos proprietarioss: como se trata de uma rede fechada, suas especificações não estao disponíveis publicambete
+b1) formatos abertos: cSv,txt, PNg,JSoN. formatos proprietarios: como se trata de uma rede fechada, suas especificações não estao disponíveis publicambete
 b2) Conforme a LGPD, o setor público não pode mais fazer uso do interesse legítimo como base legal. Existem inúmeras organizações públicas que exercem atividades de cunho delicado como tratamento de dados sensíveis, estando sujeitas a enfrentarem situações indesejáveis, tanto no âmbito administrativo quanto no judicial.
+
+
+trabalho 4 
+
+1) As linguagens de programação possuem diversas variações, como por exemplo a Phyton que é uma linguagem de programação de alto nível e de propósito generalista, sua filosofia de design enfatiza a legibilidade do código com a proposta de ser de fácil compreensão com o uso de palavras-chave em inglês, costuma utilizar recursos gráficos como chaves e colchetes para delimitar blocos. 
+Além desta, temos a Java, uma linguagem de alto nível projetada para ter o menor número possível de dependências de implementação, dessa forma os programadores escrevem o código uma única vez e ele pode ser executado em qualquer plataforma que comporte essa linguagem de programação. 
+Por fim, a PHP É uma linguagem de uso geral e livre distribuição voltada para a criação de sistemas web. Como utiliza o código aberto, os desenvolvedores conseguem mexer nela e aprimorar suas funcionalidades. Possui funções similares à linguagem C, que também pode ser utilizada para extensões na PHP
+e pode ser utilizada para o controle de drones. 
+a) Phyton = # Create a new file and write data to it
+file_name = "sample.txt"
+with open(file_name, "w") as file:
+    file.write("Hello, this is a sample text file.\n")
+    file.write("You can write data to it and read from it.\n")
+
+# Read data from the file
+with open(file_name, "r") as file:
+    data = file.read()
+    print("Data from the file:")
+    print(data)
+Java= import java.util.Scanner;
+
+public class CumprimentarUsuario {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Olá, " + nome + "!");
+    }
+}
+PHP = <!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo PHP</title>
+</head>
+<body>
+    <h1><?php echo "Olá, Mundo!"; ?></h1>
+</body>
+</html>
+
+
+
+trabalho 5
+
+(desafio)
+A ordem de precedência dos operadores aritméticos e lógicos é fundamental na programação para determinar a sequência em que as operações são executadas.
+A ordem padrão de precedência dos operadores é definida em muitas linguagens de programação, incluindo Java, Python, C++, C#, PHP, entre outras. 
+A ordem típica dos operadores aritméticos e lógicos, da mais alta para a mais baixa precedência sao as seguintes;
+
+Parênteses (): Executam primeiro, permitindo que você agrupe operações e altere a ordem padrão de precedência.
+Exponenciaçãoo(ou ^ em algumas linguagens): Executada em seguida, calcula as potências.
+Multiplicação x, Divisão /, e Módulo %: Essas operações têm a mesma precedência e são executadas da esquerda para a direita.
+Adição + e Subtração -: Essas operações também têm a mesma precedência e são executadas da esquerda para a direita.
+Operadores relacionais: Esses operadores são usados para comparações e incluem <, >, <=, >=, ==, !=, entre outros.
+Operadores lógicos:
+NOT ou !: Negação lógica.
+AND ou &&: Conjunção lógica (E).
+OR ou ||: Disjunção lógica (OU).
+A ordem de precedência padrão é projetada para refletir a matemática convencional e é seguida pela maioria das linguagens de programação. No entanto, você pode modificar a ordem de precedência usando parênteses para agrupar operações da maneira desejada. 
+
+
+
+
+
+
+
+
+
+
 
 
 
